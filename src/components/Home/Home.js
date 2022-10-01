@@ -5,7 +5,6 @@ import Cart from '../Cart/Cart';
 import './Home.css'
 import logo from '../../images/favicon.ico.png'
 import Activity from '../Activity/Activity'
-
 const Home = () => {
     const [activities,setActivities] = useState([]);
     const [cart,setCart] = useState([]);
@@ -20,16 +19,12 @@ const Home = () => {
     }
     return (
         <div>
-            
             <div className="home-container">
                 <div className="left-side">
-               
                <div className="nav">
                 <img src={logo} alt="" className='logo-img' />
                 <span className='heading-text'> IELTS Daily Routine</span>
                 </div>
-               
-                  
                     <h1 className='learning-text'>Now Select Your IELTS Learning</h1>
                     <div className="activity-container">
                     {
@@ -51,5 +46,4 @@ const Home = () => {
         </div>
     );
 };
-
 export default Home;

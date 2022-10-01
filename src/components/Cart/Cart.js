@@ -4,33 +4,14 @@ import './Cart.css'
 import image from '../../images/img.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-
 const Cart = (props) => {
     const [time,settimeout] = useState(0)
-   
     const{cart}=props
-
      let totalTime = 0;
-   
-   
      for(const learning of cart){
-    
         totalTime=totalTime + learning.time;
-    
      } 
      const handleBreak =() =>{
-        // const {btn1,btn2,btn3,btn4,btn5}=p
-        // const breakTime = {
-        //     btn1:10,
-        //     btn2:20,
-        //     btn3:30,
-        //     btn4:40,
-        //     btn5:50,
-        // }
-        
-       // const newBreak=[breakTime]
-        //let btn=(newBreak[0].btn1);
         settimeout(10)
     }
     const handleBreak2 =() =>{
@@ -48,7 +29,7 @@ const Cart = (props) => {
 
     const handleToast =()=>{
        
-        toast.success(" Now You Completed Todays  IELTS Tasks :) !");
+        toast.success(" Congratulations, You Completed IELTS Tasks :) !");
     }
     return (
         <div className='cart'>
@@ -93,7 +74,6 @@ const Cart = (props) => {
             <div className=""><br></br>
                 <div className="break-btn">
                     <h4>Break Time</h4>
-
                         <p>{time} </p>
                 </div><br></br>
                 <button className='card-btn'onClick={handleToast}>Activity completed</button>
@@ -102,5 +82,4 @@ const Cart = (props) => {
         </div>
     );
 };
-
 export default Cart;

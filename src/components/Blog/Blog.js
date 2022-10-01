@@ -1,6 +1,5 @@
 import React from 'react';
 import './Blog.css'
-
 const Blog = () => {
     return (
         <div>
@@ -11,7 +10,6 @@ const Blog = () => {
             </div>
             <div className='blog-q'>
                 <h3>Deference between props and state?</h3>
-               
                  <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the 
                 component only and cannot be passed to other components.</p>
             </div>
@@ -22,5 +20,4 @@ const Blog = () => {
         </div>
     );
 };
-
 export default Blog;
