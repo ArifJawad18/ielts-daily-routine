@@ -1,13 +1,13 @@
 .nav{
-    background-color: whitesmoke;
-    margin-top: 5px;
-    border-radius: 2px;
+    margin-top: 15px;
+    border-radius: 4px;
 }
 .home-container{
     display: grid;
-    background-color: white;
+    background-color: whitesmoke;
     grid-template-columns: 2fr 1fr;
     margin-left: 100px;
+    border-radius: 10px;
     
 }
 .activity-container{
@@ -15,21 +15,20 @@
     grid-template-columns: repeat(3,1fr);
 }
 .heading{
-    margin-top: 20px;
+    margin-top: 1px;
     
 }
 .heading-text{
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 800;
     color: rgb(224, 4, 4);
 }
 .logo-img{
-    width: 50px;
+    width: 45px;
 }
 .learning-text{
-    font-weight: 500;
-    font-size: 1.5rem;
-    color: rgb(189, 55, 55);
+    font-size: 1.3rem;
+    color: rgb(224, 20, 20);
 }
 .right-side{
     width: 100%;

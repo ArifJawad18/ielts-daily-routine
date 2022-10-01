@@ -26,12 +26,10 @@ const Home = () => {
                
                <div className="nav">
                 <img src={logo} alt="" className='logo-img' />
+                <span className='heading-text'> IELTS Daily Routine</span>
                 </div>
                
-                    <div className="heading">
-                        
-                        <span className='heading-text'> IELTS Daily Routine</span>
-                    </div>
+                  
                     <h1 className='learning-text'>Now Select Your IELTS Learning</h1>
                     <div className="activity-container">
                     {
