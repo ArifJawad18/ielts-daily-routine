@@ -15,4 +15,5 @@ const Activity = ({activity,handleCart}) => {
         </div>
     );
 };
+
 export default Activity;
