@@ -1,0 +1,52 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 90px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .location{
+    line-height: 5px;
+  }
+  .about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 10px;
+    background-color: skyblue;
+    margin-top: 22px;
+    border-radius: 8px;
+  }
+  .break-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: skyblue;
+    padding: 5px;
+    border-radius: 7px;
+
+  }
+  .btn{
+    padding: 20px 8px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  @media only screen and (max-width: 700px) {
+  
+  }

@@ -1,0 +1,48 @@
+.home-container{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 100px;
+    
+}
+.activity-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.heading{
+    margin-top: 20px;
+    
+}
+.heading-text{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(224, 4, 4);
+}
+.logo-img{
+    width: 50px;
+}
+.learning-text{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: royalblue;
+}
+.right-side{
+    width: 100%;
+    box-shadow: skyblue 0px 8px 24px;
+}
+.blog{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+@media only screen and (max-width: 700px) {
+    .home-container{
+        grid-template-columns: repeat(1,1fr);
+       margin-left:5px ;
+       margin-right: 5px;
+        
+    }
+    .activity-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+}
