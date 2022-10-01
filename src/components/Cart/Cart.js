@@ -55,8 +55,8 @@ const Cart = (props) => {
             <div className="profile">
                 <img className='avatar' src={image} alt="" />
                 <div className='location'>
-                    <h3>ME</h3>
-                    <p>Bangladesh</p>
+                    <h3>Jon</h3>
+                    <p>London,UK</p>
                 </div>
             </div>
             <div className="about">
@@ -69,7 +69,7 @@ const Cart = (props) => {
                     <p>Height</p>
                 </div>
                 <div className="weight">
-                    <h2>20</h2>
+                    <h2>25</h2>
                     <p>Age</p>
                 </div>
             </div>
