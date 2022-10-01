@@ -76,7 +76,9 @@ const Cart = (props) => {
                     <h4>Break Time</h4>
                         <p>{time} </p>
                 </div><br></br>
-                <button className='card-btn'onClick={handleToast}>Activity completed</button>
+                <button className='card-btn'onClick={handleToast}>
+                    Activity Completed
+                </button>
                 <ToastContainer />
             </div>
         </div>

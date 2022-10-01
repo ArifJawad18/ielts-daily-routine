@@ -9,8 +9,10 @@ const Activity = ({activity,handleCart}) => {
             <h3>{activity_name}</h3>
             <p> {details}
             </p>
-            <p>Time required: {time}s</p>
-             <button onClick={() =>handleCart(activity)}  className='card-btn'>Add to list</button>
+            <p>Time Required: {time}s</p>
+             <button onClick={() =>handleCart(activity)}
+             className='card-btn'>
+                Add To List</button>
             </div>
         </div>
     );
